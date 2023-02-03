@@ -1,0 +1,106 @@
+* {
+  color: ghostwhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+#content {
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.home-heading {
+  font-style: italic;
+}
+
+.img-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.image-bg {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 1.5rem;
+  border: 5px solid rgb(71, 71, 71);
+  border-radius: 5px;
+}
+
+.home-blurb {
+}
+
+.home-blurb-name {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.hours-title {
+  font-weight: bold;
+  margin-top: 3rem;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.hours {
+  list-style: none;
+  justify-content: center;
+}
+
+.location-title {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 3rem;
+  font-size: 30px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.home-btn,
+.menu-btn,
+.contact-btn {
+  background-color: black;
+  border: 2px solid ghostwhite;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.menu-container {
+  margin-top: 3rem;
+  border: 5px solid rgb(71, 71, 71);
+  border-radius: 5px;
+}
+
+.apps-list,
+.mains-list,
+.desserts-list {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.apps,
+.mains,
+.desserts {
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.app-img,
+.main-img,
+.dessert-img {
+  width: 20rem;
+  height: 13rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
